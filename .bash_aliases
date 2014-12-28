@@ -1,5 +1,6 @@
 alias ..='cd ..'
 alias journal='cd ~/dev/journal/'
+alias vim='echo "Use Emacs" && sleep 1 && emacs -nw'
 
 alias gs='git status'
 alias ga='git add'
