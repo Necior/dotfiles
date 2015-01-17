@@ -1,5 +1,5 @@
 alias ..='cd ..'
-alias journals='cd ~/Dropbox/Docs/journals'
+alias journal='cd ~/Dropbox/Docs/journal'
 alias rm='rm -I'
 
 alias gs='git status --ignore-submodules'
