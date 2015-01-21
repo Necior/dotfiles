@@ -10,3 +10,5 @@ alias gl='git log --graph --decorate --pretty=format:"%C(yellow)%h%Cred%d %Crese
 
 alias pingg='ping 8.8.8.8'
 alias clip='xclip -selection c'
+alias hibernate='sudo echo "See you!" && gnome-screensaver-command -l && sudo pm-hibernate'
+
