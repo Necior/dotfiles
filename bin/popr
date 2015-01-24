@@ -1,0 +1,12 @@
+#!/usr/bin/env perl
+
+use LWP::Simple;
+use warnings;
+use strict;
+use utf8;
+
+binmode(STDOUT, ":utf8");
+
+my $src = get('http://greybrow.iq.pl/POPR/popr_wymowka.php');
+$src =~ m/nr: (\d+).{17}(.*)/;
+print $2 . "\n";
