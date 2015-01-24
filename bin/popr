@@ -8,5 +8,5 @@ use utf8;
 binmode(STDOUT, ":utf8");
 
 my $src = get('http://greybrow.iq.pl/POPR/popr_wymowka.php');
-$src =~ m/nr: (\d+).{17}(.*)/;
-print $2 . "\n";
+$src =~ m/nr: \d+.{17}(.*)/;
+print $1 . "\n";
