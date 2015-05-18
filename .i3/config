@@ -33,6 +33,10 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 5+
+bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 5-
+bindsym XF86AudioMute exec amixer -c 0 set Master 1+ toggle
+
 # kill focused window
 bindsym $mod+Shift+q kill
 
