@@ -9,6 +9,7 @@ set expandtab
 set ignorecase
 set number
 set relativenumber
+set scrolloff=6
 
 :map <F3> <Esc>Go<Esc>o## dnia <C-R>=strftime("%Y-%m-%d")<CR> o godzinie <C-R>=strftime("%H.%M")<CR><CR><CR>
 
