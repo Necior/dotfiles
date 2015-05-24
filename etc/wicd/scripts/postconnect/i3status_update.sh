@@ -1,0 +1,3 @@
+#!/bin/sh
+
+killall -USR1 i3status
