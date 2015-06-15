@@ -1,0 +1,9 @@
+#!/bin/bash
+
+sleeptime=0.34
+while [[ 1 ]] ; do
+    echo -ne "\r/ø_ø/"
+    sleep ${sleeptime}
+    echo -ne "\r\\ø_ø\\"
+    sleep ${sleeptime}
+done
