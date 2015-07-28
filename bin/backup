@@ -1,0 +1,14 @@
+#!/bin/sh
+
+REPO="/media/n3t/shady/backups/backup.attic"
+
+attic create --stats \
+  "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
+  /home/n3t/pictures \
+  /home/n3t/Documents/Anki \
+  /home/n3t/bin \
+  /home/n3t/dev \
+  /home/n3t/Dropbox \
+  --exclude 'Thumbs.db'
+
+
