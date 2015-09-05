@@ -6,7 +6,8 @@ attic create --stats \
     "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
     /home/n3t/Documents \
     /home/n3t/bin \
-    /home/n3t/dev
+    /home/n3t/dev \
+    /home/n3t/.bash_history
 
 REPO="/media/n3t/shady/backups/mozilla.attic"
 
