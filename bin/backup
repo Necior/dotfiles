@@ -8,6 +8,5 @@ attic create --stats \
     /home/n3t/bin \
     /home/n3t/dev \
     /home/n3t/.mozilla \
-    /home/n3t/.thunderbird \
-    --exclude 'Thumbs.db'
+    /home/n3t/.thunderbird
 
