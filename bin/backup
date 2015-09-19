@@ -8,7 +8,8 @@ attic create --stats \
     /home/n3t/bin \
     /home/n3t/dev \
     /home/n3t/.bash_history \
-    /home/n3t/.ssh
+    /home/n3t/.ssh \
+    /home/n3t/.tmsu
 
 REPO="/media/n3t/shady/backups/mozilla.attic"
 
@@ -21,4 +22,5 @@ REPO="/media/n3t/shady/backups/pictures.attic"
 
 attic create --stats \
     "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
-    /home/n3t/pictures
+    /home/n3t/pictures \
+    /home/n3t/.tmsu
