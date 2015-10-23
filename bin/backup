@@ -2,6 +2,7 @@
 
 REPO="/media/n3t/shady/backups/backup.attic"
 
+echo Backing up main documents...
 attic create --stats \
     "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
     /home/n3t/Documents \
@@ -13,6 +14,7 @@ attic create --stats \
 
 REPO="/media/n3t/shady/backups/mozilla.attic"
 
+echo Backing up mozilla apps data...
 attic create --stats \
     "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
     /home/n3t/.mozilla \
@@ -20,6 +22,7 @@ attic create --stats \
 
 REPO="/media/n3t/shady/backups/pictures.attic"
 
+echo Backing up pictures...
 attic create --stats \
     "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
     /home/n3t/pictures \
@@ -27,6 +30,7 @@ attic create --stats \
 
 REPO="/media/n3t/shady/backups/tmp.attic"
 
+echo Backing up tmp...
 attic create --stats \
     "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
     /home/n3t/tmp
