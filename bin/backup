@@ -12,14 +12,6 @@ attic create --stats \
     /home/n3t/.ssh \
     /home/n3t/.tmsu
 
-REPO="/media/n3t/shady/backups/mozilla.attic"
-
-echo Backing up mozilla apps data...
-attic create --stats \
-    "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
-    /home/n3t/.mozilla \
-    /home/n3t/.thunderbird
-
 REPO="/media/n3t/shady/backups/pictures.attic"
 
 echo Backing up pictures...
@@ -27,6 +19,14 @@ attic create --stats \
     "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
     /home/n3t/pictures \
     /home/n3t/.tmsu
+
+REPO="/media/n3t/shady/backups/mozilla.attic"
+
+echo Backing up mozilla apps data...
+attic create --stats \
+    "${REPO}::$(hostname)-$(date '+%Y-%m-%d_at_%H_%M')" \
+    /home/n3t/.mozilla \
+    /home/n3t/.thunderbird
 
 REPO="/media/n3t/shady/backups/tmp.attic"
 
