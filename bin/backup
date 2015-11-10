@@ -10,7 +10,8 @@ attic create --stats \
     /home/n3t/dev \
     /home/n3t/.bash_history \
     /home/n3t/.ssh \
-    /home/n3t/.tmsu
+    /home/n3t/.tmsu \
+    /home/n3t/.task*
 
 REPO="/media/n3t/shady/backups/pictures.attic"
 
