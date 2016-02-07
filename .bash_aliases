@@ -1,5 +1,6 @@
 alias ..='cd ..'
 alias ls='ls --color=auto'
+alias sl='ls'
 
 alias gs='git status --ignore-submodules'
 alias gd='git diff --color-words'
