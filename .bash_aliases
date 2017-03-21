@@ -11,3 +11,4 @@ alias gg="git log --graph --abbrev-commit --decorate --date=relative --format=fo
 alias gl='git log --graph --decorate --pretty=format:"%C(yellow)%h%Cred%d %Creset%s%Cblue [%cn]"'
 
 alias pingg='ping 8.8.8.8'
+alias mpv_mixdown='mpv --af=pan=1:[0.5,0.5]'
