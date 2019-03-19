@@ -15,4 +15,5 @@ alias mpv_mixdown='mpv --af=pan=1:[0.5,0.5]'
 alias mpvx='mpv --no-video'
 alias soma='mpv --no-video https://somafm.com/defcon130.pls'
 alias ls='exa'
+alias :q='exit'
 
