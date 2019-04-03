@@ -19,3 +19,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+function cheat() {
+  curl cht.sh/$1
+}
+
