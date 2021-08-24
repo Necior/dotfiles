@@ -1,3 +1,4 @@
-#!/bin/sh
+#!/usr/bin/env nix-shell
+#!nix-shell -i sh -p xtrlock-pam
 
-sleep 3; xtrlock
+sleep 3; xtrlock-pam
