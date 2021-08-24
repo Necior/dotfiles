@@ -1,1 +1,0 @@
-../postconnect/i3status_update.sh
