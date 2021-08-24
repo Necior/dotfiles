@@ -16,4 +16,3 @@ alias mpvx='mpv --no-video'
 alias soma='mpv --no-video https://somafm.com/defcon130.pls'
 alias :q='exit'
 
-alias fifa='mpv --demuxer-lavf-o=video_size=1280x720,input_format=mjpeg av://v4l2:/dev/video0 --profile=low-latency --no-correct-pts --fps=60 --opengl-glfinish=no --opengl-swapinterval=0'
