@@ -9,9 +9,9 @@ pkgs.mkShell {
       configure = {
         packages.myPlugins = with nixPkgs.vimPlugins; {
           start = [
-	    YouCompleteMe
-	    elm-vim
-	    neovim-sensible
+            YouCompleteMe
+            elm-vim
+            neovim-sensible
             (nvim-treesitter.withPlugins (
               plugins: with plugins; [
                 tree-sitter-nix
