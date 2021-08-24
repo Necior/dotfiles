@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 sleeptime=0.34
 while [[ 1 ]] ; do
