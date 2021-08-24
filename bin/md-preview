@@ -1,5 +1,0 @@
-#!/bin/bash
-
-TEMPFILE=$(mktemp --suffix ".html")
-pandoc "$1" -s -c /home/n3t/bin/md-preview.css --self-contained -o "$TEMPFILE" --toc
-xdg-open "$TEMPFILE"
