@@ -15,10 +15,10 @@ with Diagram("My K8s infrastructure"):
     with Cluster("Kubernetes cluster"):
         with Cluster("main node"):
             proxy1 = KProxy()
-            node1 = Node("x86_64")
+            node1 = Node("aarch64")
             proxy1 >> node1
 
-        node2 = Node("aarch64")
+        node2 = Node("x86_64")
         proxy1 >> node2
 
     end_user >> firewall >> proxy1
