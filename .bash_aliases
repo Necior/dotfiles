@@ -13,7 +13,7 @@ alias gl='git log --graph --decorate --pretty=format:"%C(yellow)%h%Cred%d %Crese
 alias pingg='ping 8.8.8.8'
 alias mpv_mixdown='mpv --audio-channels=mono'
 alias mpvx='mpv --no-video'
-alias soma='mpv --no-video https://somafm.com/defcon130.pls'
+alias soma-defcon='mpv --no-video https://somafm.com/defcon130.pls'
 alias :q='exit'
 
 alias mkshell="echo 'eyBwa2dzID8gaW1wb3J0IDxuaXhwa2dzPiB7IH0gfToKCnBrZ3MubWtTaGVsbCB7CiAgYnVpbGRJbnB1dHMgPSB3aXRoIHBrZ3M7IFsKICAgIC8vIEFkZCBwYWNrYWdlcyBoZXJlIDopCiAgXTsKfQo=' | base64 -d > shell.nix"
