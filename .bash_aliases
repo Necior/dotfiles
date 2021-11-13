@@ -23,3 +23,5 @@ alias ns="nix-shell -p"
 alias nx="nix-shell -p" # I sometimes type `nx` instead of `ns`, so let's alias it too :-)
 alias view="nvim"
 
+alias rs-off="systemctl --user stop redshift"
+alias rs-on="systemctl --user start redshift"
