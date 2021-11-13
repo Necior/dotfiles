@@ -20,5 +20,6 @@ alias mkshell="echo 'eyBwa2dzID8gaW1wb3J0IDxuaXhwa2dzPiB7IH0gfToKCnBrZ3MubWtTaGV
 alias open='xdg-open "`fzf`"'
 
 alias ns="nix-shell -p"
+alias nx="nix-shell -p" # I sometimes type `nx` instead of `ns`, so let's alias it too :-)
 alias view="nvim"
 
