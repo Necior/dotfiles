@@ -170,5 +170,8 @@ bar {
 
 focus_follows_mouse yes
 
+assign [class="^mpv$"] 4
+for_window [class="^mpv$"] focus
+
 bindsym $mod+BackSpace exec i3lock-fancy -t "pwd?"
 
