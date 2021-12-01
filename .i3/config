@@ -39,6 +39,7 @@ bindsym XF86AudioMute exec amixer -c 0 set Master 1+ toggle
 
 bindsym --release Print exec import png:- | xclip -selection clipboard -t image/png -i
 bindsym --release Shift+Print exec ~/dev/upload_screenshot.sh
+bindsym --release Ctrl+Shift+Print exec ~/dev/upload_screenshots.sh
 
 # kill focused window
 bindsym $mod+Shift+q kill
