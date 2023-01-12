@@ -50,10 +50,6 @@ bindsym $mod+Shift+d exec dmenu_run -i
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
-bindsym $mod+Shift+p exec "i3-nagbar -t warning -m 'Suspend?' -B 'Yes, suspend' 'i3lock --image /home/n3t/tmp/papiesz.png --color dba666 --tiling --show-failed-attempts && systemctl suspend'"
-# Use sleep to avoid turning the screen on
-bindsym $mod+Shift+i exec "i3lock --image /home/n3t/tmp/papiesz.png --color dba666 --tiling --show-failed-attempts && sleep 1 && xset dpms force off"
-
 # change focus
 bindsym $mod+h focus left
 bindsym $mod+j focus down
