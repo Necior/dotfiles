@@ -61,4 +61,12 @@
     xclip
     xdotool
   ];
+
+  # TODO(Necior): make a single configuration option to easily switch between Dublin and Warsaw.
+  time.timeZone = "Europe/Dublin"; # sometimes "Europe/Warsaw"
+  location = {
+    provider = "manual";
+    latitude = 53.4;
+    longitude = -6.3;
+  };
 }
