@@ -9,7 +9,7 @@
 # i3 config file (v4)
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
-exec --no-startup-id feh --bg-scale /home/n3t/tmp/wallhaven-1k3j1v.png
+exec --no-startup-id feh --bg-scale /home/n3t/tmp/wallhaven-x8gkpo.jpg
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
