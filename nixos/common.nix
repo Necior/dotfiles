@@ -69,4 +69,9 @@
     latitude = 53.4;
     longitude = -6.3;
   };
+
+  networking.extraHosts =
+    ''
+      127.0.0.1 news.ycombinator.com
+    '';
 }
