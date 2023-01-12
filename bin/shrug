@@ -1,3 +1,0 @@
-#!/bin/sh
-
-echo -n '¯\_(ツ)_/¯' | xclip -i -selection clipboard
