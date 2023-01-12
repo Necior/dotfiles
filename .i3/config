@@ -38,8 +38,7 @@ bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 5-
 bindsym XF86AudioMute exec amixer -c 0 set Master 1+ toggle
 
 bindsym --release Print exec import png:- | xclip -selection clipboard -t image/png -i
-bindsym --release Shift+Print exec ~/dev/upload_screenshot.sh
-bindsym --release Ctrl+Shift+Print exec ~/dev/upload_screenshots.sh
+bindsym --release Ctrl+Print exec import -window $(xdotool getactivewindow) png:- | xclip -selection clipboard -t image/png -i
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -166,7 +165,8 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
-        position bottom
+        tray_output DP-2
+        position top
 }
 
 focus_follows_mouse yes
