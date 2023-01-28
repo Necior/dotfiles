@@ -11,6 +11,9 @@
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 exec --no-startup-id feh --bg-scale /home/n3t/tmp/wallhaven-x8gkpo.jpg
 exec --no-startup-id alacritty --class immortal-python -e sh -c 'while true; do python3; clear; done'
+
+# For some reason, using pre-installed ISS raises `ValueError: Namespace Gtk not available`
+exec --no-startup-id nix-shell -p indicator-sound-switcher --run indicator-sound-switcher
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
