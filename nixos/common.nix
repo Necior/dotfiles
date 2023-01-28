@@ -48,6 +48,7 @@
     pwgen
     python311
     ripgrep
+    rofi
     sqlitebrowser
     starship
     taskwarrior
