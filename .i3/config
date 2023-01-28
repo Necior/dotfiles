@@ -14,6 +14,8 @@ exec --no-startup-id alacritty --class immortal-python -e sh -c 'while true; do 
 
 # For some reason, using pre-installed ISS raises `ValueError: Namespace Gtk not available`
 exec --no-startup-id nix-shell -p indicator-sound-switcher --run indicator-sound-switcher
+
+exec --no-startup-id ~/.screenlayout/samsung-dell.sh
 set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
