@@ -63,6 +63,8 @@
     xdotool
   ];
 
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
   # TODO(Necior): make a single configuration option to easily switch between Dublin and Warsaw.
   time.timeZone = "Europe/Dublin"; # sometimes "Europe/Warsaw"
   location = {
