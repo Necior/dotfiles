@@ -14,6 +14,19 @@
 
 {
   environment.systemPackages = with pkgs; [
+    (neovim.override {
+      vimAlias = true;
+      viAlias = true;
+      configure = {
+        customRC = ''
+          source ~/.config/nvim/init.lua
+        '';
+        packages.myPlugins = with vimPlugins; {
+          start = [ catppuccin-nvim ];
+          opt = [ ];
+        };
+      };
+    })
     arandr
     aria2
     autossh
