@@ -9,7 +9,6 @@
 # ```
 # to /etc/nixos/configuration.nix.
 
-
 { pkgs, ... }:
 
 {
@@ -51,7 +50,9 @@
     jq
     killall
     lsof
-    man-pages man-pages-posix stdmanpages
+    man-pages
+    man-pages-posix
+    stdmanpages
     moreutils
     mpv
     multimarkdown
@@ -86,8 +87,7 @@
     longitude = -6.3;
   };
 
-  networking.extraHosts =
-    ''
-      127.0.0.1 news.ycombinator.com
-    '';
+  networking.extraHosts = ''
+    127.0.0.1 news.ycombinator.com
+  '';
 }
