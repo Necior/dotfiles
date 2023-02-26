@@ -21,7 +21,7 @@
           source ~/.config/nvim/init.lua
         '';
         packages.myPlugins = with vimPlugins; {
-          start = [ catppuccin-nvim nvim-lspconfig ];
+          start = [ nightfox-nvim nvim-lspconfig telescope-nvim ];
           opt = [ ];
         };
       };
