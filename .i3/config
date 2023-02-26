@@ -10,7 +10,6 @@
 #
 # Please see http://i3wm.org/docs/userguide.html for a complete reference!
 exec --no-startup-id feh --bg-scale /home/n3t/tmp/wallhaven-x8gkpo.jpg
-exec --no-startup-id alacritty --class immortal-python -e sh -c 'while true; do python3; clear; done'
 
 # For some reason, using pre-installed ISS raises `ValueError: Namespace Gtk not available`
 exec --no-startup-id nix-shell -p indicator-sound-switcher --run indicator-sound-switcher
@@ -42,12 +41,6 @@ bindsym $mod+Return exec alacritty
 bindsym XF86AudioRaiseVolume exec amixer -c 0 set Master 5+
 bindsym XF86AudioLowerVolume exec amixer -c 0 set Master 5-
 bindsym XF86AudioMute exec amixer -c 0 set Master 1+ toggle
-
-bindsym XF86Launch7 scratchpad show
-for_window [instance="immortal-python"] floating enable
-for_window [instance="immortal-python"] move scratchpad
-for_window [instance="immortal-python"] border pixel 5
-for_window [instance="immortal-python"] resize set 2000 1200
 
 bindsym --release Print exec import png:- | xclip -selection clipboard -t image/png -i
 bindsym --release Ctrl+Print exec import -window $(xdotool getactivewindow) png:- | xclip -selection clipboard -t image/png -i
