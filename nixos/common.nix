@@ -21,7 +21,7 @@
           source ~/.config/nvim/init.lua
         '';
         packages.myPlugins = with vimPlugins; {
-          start = [ catppuccin-nvim ];
+          start = [ catppuccin-nvim nvim-lspconfig ];
           opt = [ ];
         };
       };
@@ -60,6 +60,7 @@
     pavucontrol
     pv
     pwgen
+    python310Packages.python-lsp-server
     python311
     ripgrep
     rofi
