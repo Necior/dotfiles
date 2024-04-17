@@ -16,7 +16,7 @@ alias mpvx='mpv --no-video'
 alias soma-defcon='mpv --no-video https://somafm.com/defcon130.pls'
 alias :q='exit'
 
-alias mkshell="echo 'eyBwa2dzID8gaW1wb3J0IDxuaXhwa2dzPiB7IH0gfToKCnBrZ3MubWtTaGVsbCB7CiAgYnVpbGRJbnB1dHMgPSB3aXRoIHBrZ3M7IFsKICAgIC8vIEFkZCBwYWNrYWdlcyBoZXJlIDopCiAgXTsKfQo=' | base64 -d > shell.nix"
+alias mkshell="echo 'eyBwa2dzID8gaW1wb3J0IDxuaXhwa2dzPiB7IH0gfToKCnBrZ3MubWtTaGVsbCB7CiAgYnVpbGRJbnB1dHMgPSB3aXRoIHBrZ3M7IFsKICAgICMgQWRkIHBhY2thZ2VzIGhlcmUgOikKICBdOwp9Cg==' | base64 -d > shell.nix"
 alias open='xdg-open "`fzf`"'
 
 alias ns="nix-shell -p"
